@@ -181,7 +181,7 @@ def list_potential_obstruction_pos(input_data:List[str]) -> List[Tuple[int,int]]
 
 def determine_if_is_in_loop(table:Table) -> bool:
     for step in table.iterate_update():
-        if step > table.size*5:
+        if step > table.size:
             return True
     return False
 
