@@ -9,10 +9,5 @@ def part_2(input_path:str=get_default_input_path(__file__)):
 def part_2_solve(input_path:str) -> int:
     input_data = parse_input(input_path)
     table = Table(input_data)
-
-    for _ in range(0, 2):
-        table.populate_antinodes()
-        table.fill_table_with_antinodes()
-    table.display()
-    n_antinodes = table.n_antinodes
-    return n_antinodes
+    table.populate_res_antinodes()
+    return table.n_res_antinodes
