@@ -21,7 +21,10 @@ def multiply(l:int, r:int) -> int:
     return l*r
 
 def concatenation(l:int, r:int) -> int:
-    return int(str(l) + str(r))
+    mul = 10
+    while(rh > mul):
+        mul *= 10
+    return lh*mul + rh
 
 OPERATION_LIST = [add, multiply]
 PART2_OPERATION_LIST = OPERATION_LIST + [concatenation]
