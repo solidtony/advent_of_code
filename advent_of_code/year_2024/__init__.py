@@ -10,3 +10,4 @@ from advent_of_code.year_2024 import day_9
 from advent_of_code.year_2024 import day_10
 from advent_of_code.year_2024 import day_11
 from advent_of_code.year_2024 import day_12
+from advent_of_code.year_2024 import day_15
